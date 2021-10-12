@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Foliensatz</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <textarea id="source">
+  </textarea>
+
+  <script src="./remark-latest.min.js">
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured">
+  </script>
+
+  <script>
+    // Create Slideshow
+    var slideshow = remark.create({
+      sourceUrl: './slides.md',
+      ratio: '16:9',
+      countIncrementalSlides: false,
+      slideNumberFormat: '%current% von %total%',
+      highlightStyle: 'default',
+      highlightLines: 'true'
+    });
+
+    // Setup MathJax
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    });
+
+    MathJax.Hub.Configured();
+  </script>
+</body>
+
+</html>

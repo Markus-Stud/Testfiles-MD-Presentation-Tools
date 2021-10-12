@@ -1,0 +1,32 @@
+/*
+###############
+GENERIC STYLING
+###############
+*/
+
+:root {
+    --r-background-color: #fff;
+    --r-main-font-size: 32px;
+    --r-main-color: #191919;
+    --r-heading-color: #191919;
+    --r-selection-color: #191919;
+}
+
+section {
+    text-align: left;
+}
+
+/*
+#################
+TWO-COLUMN LAYOUT
+#################
+*/
+
+.column-area {
+    display: flex;
+    flex-flow: row;
+}
+
+.column-halfSlide {
+    flex-basis: 50%;
+}

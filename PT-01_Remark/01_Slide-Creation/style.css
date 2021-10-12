@@ -1,0 +1,60 @@
+/*
+###############
+GENERIC STYLING
+###############
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.remark-code, .remark-inline-code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*
+##################
+INDIVIDUAL STYLING
+##################
+*/
+
+.backgroundColor {
+    background-color: lightgoldenrodyellow;
+}
+
+.fontFamily {
+    font-family: cursive;
+}
+
+.fontSize {
+    font-size: 1.5em;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: green;
+}
+
+/*
+#################
+TWO-COLUMN LAYOUT
+#################
+*/
+
+.left-column {
+    width: 49%;
+    float: left;
+}
+
+.right-column {
+    width: 49%;
+    float: right;
+}

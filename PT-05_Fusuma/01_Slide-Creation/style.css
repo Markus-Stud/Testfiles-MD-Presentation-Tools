@@ -1,0 +1,67 @@
+/*
+###############
+GENERIC STYLING
+###############
+*/
+
+/* themes */
+/* When nothing is loaded, the default theme will be applied. */
+/* see https://github.com/hiroppy/fusuma#themes */
+/* @import '@fusuma/client/assets/style/themes/pop.css'; */
+/* @import '@fusuma/client/assets/style/themes/babel.css'; */
+/* @import '@fusuma/client/assets/style/themes/webpack.css'; */
+/* @import '@fusuma/client/assets/style/themes/node.css'; */
+
+p {
+    margin-top: 0.5em;
+}
+
+/*
+##################
+INDIVIDUAL STYLING
+##################
+*/
+
+.backgroundColor {
+    background-color: lightgoldenrodyellow;
+}
+
+.fontFamily {
+    font-family: cursive;
+}
+
+.fontSize {
+    font-size: 1.5em;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: green;
+}
+
+/*
+###########
+POSITIONING
+###########
+*/
+
+.left {
+    align-self: flex-start;
+}
+
+.right {
+    align-self: flex-end;
+}
+
+/*
+#############
+COLUMN LAYOUT
+#############
+*/
+
+.grid {
+    flex-direction: row;
+}

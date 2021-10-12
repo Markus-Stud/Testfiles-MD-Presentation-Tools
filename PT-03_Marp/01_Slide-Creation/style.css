@@ -1,0 +1,32 @@
+/* 
+* @theme myTheme
+* @auto-scaling true
+*/
+
+@import 'default';
+
+/*
+###############
+GENERIC STYLING
+###############
+*/
+
+section.centered {
+    display: flex;
+    align-items: center;
+}
+
+/*
+#################
+TWO-COLUMN LAYOUT
+#################
+*/
+
+.column-area {
+    display: flex;
+    flex-flow: row;
+}
+
+.column-halfSlide {
+    flex-basis: 50%;
+}
